@@ -648,21 +648,21 @@ nav {
     height: 60px;
     padding: 10px;
     display: flex;
-    gap: 45px;
+    gap: 20px;
     /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     text-align: center;
 
     .nav--heading {
-      width: 160px;
+      width: 200px;
       height: 100%;
       align-items: center;
       display: flex;
     }
 
     h2 {
-      font-size: 0.8rem;
+      font-size: 0.8em;
     }
 
     .nav--links {
@@ -673,6 +673,7 @@ nav {
       box-sizing: border-box;
       font-weight: bold;
       text-align: center;
+      margin-right: 10px;
 
       ul {
         display: flex;
@@ -1254,6 +1255,8 @@ nav {
         .social--links {
           display: flex;
           gap: 10px;
+          justify-content: center;
+          
 
           a {
             color: black;
